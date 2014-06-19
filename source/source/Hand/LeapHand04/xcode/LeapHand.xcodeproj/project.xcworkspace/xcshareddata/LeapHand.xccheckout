@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BCC62C25-EC7C-42B3-B08C-E7290AE2F89E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LeapHand</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC3BDC25-6526-4C5D-A5B5-0CFBF91F35D4</key>
+		<string>https://github.com/kaorun55/LeapBookCpp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>source/source/Hand/LeapHand01/xcode/LeapHand.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC3BDC25-6526-4C5D-A5B5-0CFBF91F35D4</key>
+		<string>../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kaorun55/LeapBookCpp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC3BDC25-6526-4C5D-A5B5-0CFBF91F35D4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC3BDC25-6526-4C5D-A5B5-0CFBF91F35D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LeapBookCpp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
