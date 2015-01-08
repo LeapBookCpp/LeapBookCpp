@@ -6,6 +6,8 @@ cinder/
 LeapDeveloperKit/
 DerivedData/
 
+Leap*.h
+
 # User-specific files
 *.suo
 *.user
