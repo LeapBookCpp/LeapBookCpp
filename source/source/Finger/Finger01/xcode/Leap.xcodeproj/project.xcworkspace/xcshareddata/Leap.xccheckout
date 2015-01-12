@@ -14,7 +14,7 @@
 		<string>https://github.com/LeapBookCpp/LeapBookCpp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>source/source/_Template/Leap/xcode/Leap.xcodeproj</string>
+	<string>source/source/Finger/Finger01/xcode/Leap.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8AB7D94FFE2F2AB9BE1AE38B5FB2F0633C411D04</key>
