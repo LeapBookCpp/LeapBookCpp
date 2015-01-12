@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0BED01BE-AA34-420D-8068-6DC81C3787AB</string>
+	<string>00AF85B1-EEE1-4688-B519-170C1464113D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Leap</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>35B90C0A-D88A-4934-8C52-BF2A096DFED6</key>
-		<string>https://github.com/kaorun55/LeapBookCpp.git</string>
+		<key>8AB7D94FFE2F2AB9BE1AE38B5FB2F0633C411D04</key>
+		<string>https://github.com/LeapBookCpp/LeapBookCpp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>source/source/_Template/Leap/xcode/Leap.xcodeproj/project.xcworkspace</string>
+	<string>source/source/_Template/Leap/xcode/Leap.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>35B90C0A-D88A-4934-8C52-BF2A096DFED6</key>
+		<key>8AB7D94FFE2F2AB9BE1AE38B5FB2F0633C411D04</key>
 		<string>../../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/kaorun55/LeapBookCpp.git</string>
+	<string>https://github.com/LeapBookCpp/LeapBookCpp.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>35B90C0A-D88A-4934-8C52-BF2A096DFED6</string>
+	<string>8AB7D94FFE2F2AB9BE1AE38B5FB2F0633C411D04</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>35B90C0A-D88A-4934-8C52-BF2A096DFED6</string>
+			<string>8AB7D94FFE2F2AB9BE1AE38B5FB2F0633C411D04</string>
 			<key>IDESourceControlWCCName</key>
 			<string>LeapBookCpp</string>
 		</dict>

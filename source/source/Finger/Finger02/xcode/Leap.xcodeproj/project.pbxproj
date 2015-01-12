@@ -14,21 +14,21 @@
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		601F348A5562430D8974C31A /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = F8B5E64F513B4A57BE743BC1 /* CinderApp.icns */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		B70B81B21920AC6400096A00 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B70B81B11920AC6400096A00 /* libLeap.dylib */; };
-		B70B81B41920AC7400096A00 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = B70B81B11920AC6400096A00 /* libLeap.dylib */; };
-		FD5932E435A04963965F9645 /* LeapApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343F5AE8789A446A9BD3F2CF /* LeapApp.cpp */; };
+		B7116B2E1A641B04003FFBAC /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7116B2D1A641B04003FFBAC /* libLeap.dylib */; };
+		B7116B301A641B26003FFBAC /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = B7116B2D1A641B04003FFBAC /* libLeap.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		CA68C21066A940598A188D54 /* LeapApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2386523B902A4B739D3ACCEC /* LeapApp.cpp */; };
+		E668E547B95344C095FEDC0E /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3112B5A25B51497CB277D76B /* CinderApp.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B70B81B31920AC6D00096A00 /* CopyFiles */ = {
+		B7116B2F1A641B14003FFBAC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				B70B81B41920AC7400096A00 /* libLeap.dylib in CopyFiles */,
+				B7116B301A641B26003FFBAC /* libLeap.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,20 +40,20 @@
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		036A32E845F94F198806F1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		1F93CA4420624FF9A77547F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2386523B902A4B739D3ACCEC /* LeapApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = LeapApp.cpp; path = ../src/LeapApp.cpp; sourceTree = "<group>"; };
+		24CBDEF4026C4C38A51F328A /* Leap_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Leap_Prefix.pch; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		343F5AE8789A446A9BD3F2CF /* LeapApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = LeapApp.cpp; path = ../src/LeapApp.cpp; sourceTree = "<group>"; };
-		4684CBD6FDEE43B8A1427EAB /* Leap_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Leap_Prefix.pch; sourceTree = "<group>"; };
+		3112B5A25B51497CB277D76B /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
-		6209E41BE6174B07AF6D0DA9 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		8A398814392F4F2BBDBC2A45 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Leap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B70B81AF1920AC3E00096A00 /* Leap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Leap.h; path = ../include/Leap.h; sourceTree = "<group>"; };
-		B70B81B01920AC3E00096A00 /* LeapMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeapMath.h; path = ../include/LeapMath.h; sourceTree = "<group>"; };
-		B70B81B11920AC6400096A00 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
-		F8B5E64F513B4A57BE743BC1 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		B7116B2B1A641AD6003FFBAC /* Leap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Leap.h; path = ../include/Leap.h; sourceTree = "<group>"; };
+		B7116B2C1A641AD6003FFBAC /* LeapMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeapMath.h; path = ../include/LeapMath.h; sourceTree = "<group>"; };
+		B7116B2D1A641B04003FFBAC /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
 				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
 				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
-				B70B81B21920AC6400096A00 /* libLeap.dylib in Frameworks */,
+				B7116B2E1A641B04003FFBAC /* libLeap.dylib in Frameworks */,
 				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
 				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
 			);
@@ -86,7 +86,7 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				343F5AE8789A446A9BD3F2CF /* LeapApp.cpp */,
+				2386523B902A4B739D3ACCEC /* LeapApp.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 		29B97314FDCFA39411CA2CEA /* Leap */ = {
 			isa = PBXGroup;
 			children = (
-				B70B81B11920AC6400096A00 /* libLeap.dylib */,
+				B7116B2D1A641B04003FFBAC /* libLeap.dylib */,
 				01B97315FEAEA392516A2CEA /* Blocks */,
 				29B97315FDCFA39411CA2CEA /* Headers */,
 				080E96DDFE201D6D7F000001 /* Source */,
@@ -140,10 +140,10 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				B70B81AF1920AC3E00096A00 /* Leap.h */,
-				B70B81B01920AC3E00096A00 /* LeapMath.h */,
-				6209E41BE6174B07AF6D0DA9 /* Resources.h */,
-				4684CBD6FDEE43B8A1427EAB /* Leap_Prefix.pch */,
+				B7116B2B1A641AD6003FFBAC /* Leap.h */,
+				B7116B2C1A641AD6003FFBAC /* LeapMath.h */,
+				8A398814392F4F2BBDBC2A45 /* Resources.h */,
+				24CBDEF4026C4C38A51F328A /* Leap_Prefix.pch */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -151,8 +151,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F8B5E64F513B4A57BE743BC1 /* CinderApp.icns */,
-				1F93CA4420624FF9A77547F1 /* Info.plist */,
+				3112B5A25B51497CB277D76B /* CinderApp.icns */,
+				036A32E845F94F198806F1DD /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
-				B70B81B31920AC6D00096A00 /* CopyFiles */,
+				B7116B2F1A641B14003FFBAC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -219,7 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				601F348A5562430D8974C31A /* CinderApp.icns in Resources */,
+				E668E547B95344C095FEDC0E /* CinderApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5932E435A04963965F9645 /* LeapApp.cpp in Sources */,
+				CA68C21066A940598A188D54 /* LeapApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +240,7 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CINDER_PATH = ../../../../cinder/cinder_0.8.6;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -269,6 +270,7 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CINDER_PATH = ../../../../cinder/cinder_0.8.6;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -278,6 +280,10 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Leap_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
@@ -298,7 +304,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = ../../../../cinder/cinder_0.8.5;
+				CINDER_PATH = ../../../GitHub/LeapBookCpp/source/cinder/cinder_0.8.6;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -315,7 +321,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = ../../../../cinder/cinder_0.8.5;
+				CINDER_PATH = ../../../GitHub/LeapBookCpp/source/cinder/cinder_0.8.6;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
