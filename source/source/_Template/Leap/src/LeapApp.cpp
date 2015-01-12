@@ -23,9 +23,8 @@ public:
     glEnable( GL_LIGHTING );
     glEnable( GL_LIGHT0 );
 
-    // 表示フォントと領域の設定
-    // Mac OSX(Mavericks)とWindows 8.1に標準搭載されているフォント
-    mFont = Font( "游ゴシック体", 20 );
+    // 表示フォントの設定
+    mFont = Font( "", 20 );
 
     // カメラ(視点)の設定
     float y = 250;
