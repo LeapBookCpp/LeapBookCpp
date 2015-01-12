@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0BED01BE-AA34-420D-8068-6DC81C3787AB</string>
+	<string>00AF85B1-EEE1-4688-B519-170C1464113D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Leap</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>https://github.com/LeapBookCpp/LeapBookCpp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>source/source/Finger/Finger01/xcode/Leap.xcodeproj</string>
+	<string>source/source/_Template/Leap/xcode/Leap.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8AB7D94FFE2F2AB9BE1AE38B5FB2F0633C411D04</key>
