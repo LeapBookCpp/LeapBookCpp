@@ -13,12 +13,12 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(LEAP_SDK)lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Leapd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Leap.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /Y $(LEAP_SDK)lib\x86\Leapd.dll $(OutDir)
-xcopy /Y $(LEAP_SDK)lib\x86\msvcp120d.dll $(OutDir)
-xcopy /Y $(LEAP_SDK)lib\x86\msvcr120d.dll $(OutDir)
+      <Command>xcopy /Y $(LEAP_SDK)lib\x86\Leap.dll $(OutDir)
+xcopy /Y $(LEAP_SDK)lib\x86\msvcp120.dll $(OutDir)
+xcopy /Y $(LEAP_SDK)lib\x86\msvcr120.dll $(OutDir)
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
